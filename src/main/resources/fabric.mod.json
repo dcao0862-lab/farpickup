@@ -1,0 +1,16 @@
+{
+  "schemaVersion": 1,
+  "id": "farpickup",
+  "version": "${version}",
+  "name": "Far Pickup",
+  "description": "Items within range fly to you, so you pick them up from farther away and faster. Hold Shift to turn it off.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "*",
+  "mixins": ["farpickup.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21"
+  }
+}
